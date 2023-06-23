@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("Enter the first number: ");
-int a = Convert.ToInt32(Console.ReadLine());
+double a = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Enter the second number: ");
-int b = Convert.ToInt32(Console.ReadLine());
-if (a < b)
+double b = Convert.ToDouble(Console.ReadLine());
+if ((a < b) != null)
 {
     Console.Write("max number: " + b);
 }
